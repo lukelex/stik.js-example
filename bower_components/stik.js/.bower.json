@@ -1,0 +1,35 @@
+{
+  "name": "stik.js",
+  "main": "stik.js",
+  "version": "0.4.1",
+  "homepage": "https://github.com/lukelex/stik.js",
+  "authors": [
+    "Lukas Alexandre <lukas@codelogic.me>"
+  ],
+  "description": "A JS library to wire you JavaScript execution to your HTML template",
+  "keywords": [
+    "scope",
+    "management",
+    "dependency-injection",
+    "single-responsibility-principle"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "specs",
+    "src",
+    "examples",
+    "Gruntfile.js"
+  ],
+  "_release": "0.4.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.4.1",
+    "commit": "1fff2a99633e789ed3616bc0ac6b70cde0aa9796"
+  },
+  "_source": "git://github.com/lukelex/stik.js.git",
+  "_target": "~0.4.0",
+  "_originalSource": "stik.js"
+}

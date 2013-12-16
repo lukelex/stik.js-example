@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Stik.js • ToDo Example</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="learn-bar" style="">
+  <aside class="learn">
+    <header>
+      <h3>Stik.js</h3>
+      <span class="source-links">
+        <!-- <h5>Dependency Example</h5>
+        <a class="demo-link" href="#">Demo</a>,
+        <a href="#">Source</a> -->
+
+        <h5>CoffeeScript &amp; Stik.js</h5>
+        <a class="demo-link" href="#">Demo</a>,
+        <a href="#">Source</a>
+      </span>
+    </header>
+
+    <hr>
+
+    <blockquote class="quote speech-bubble">
+      <p>An opinionated JS library that wires your JavaScript execution to your HTML templates by creating pseudo closures of execution and scoping. Allowing you to manage, in a more consistant way, your events `binding/unbind` and your DOM scope manipulation. By splitting your logic into small specialized responsible actions, Stik.js will help you avoid both the gigantism and namespace hell on your JavaScripts.</p>
+
+      <footer>
+        <a href="https://github.com/lukelex/stik.js">Stik.js</a>
+      </footer>
+    </blockquote>
+
+    <hr>
+
+    <h4>Official Resources</h4>
+
+    <ul>
+      <li>
+        <a href="https://github.com/lukelex/stik.js/blob/master/stik.js">Source code</a>
+      </li>
+      <!-- <li>
+        <a href="#">Applications built with Backbone.js</a>
+      </li> -->
+      <!-- <li>
+        <a href="#">FAQ</a>
+      </li> -->
+    </ul>
+  </aside>
+
+  <section id="todoapp" data-controller="TodosCtrl" data-action="List">
+    <header id="header" data-controller="TodosCtrl" data-action="New">
+      <h1>todos</h1>
+      <input id="new-todo" placeholder="What needs to be done?" autofocus="">
+    </header>
+
+    <section id="main">
+      <input id="toggle-all" type="checkbox">
+      <label for="toggle-all">Mark all as complete</label>
+      <ul id="todo-list" style="display:none;"></ul>
+    </section>
+    <footer id="footer" style="display:none;">
+      <span id="todo-count">
+        <strong data-bind="todosSize"></strong> item left
+      </span>
+      <ul id="filters">
+        <li>
+          <a class="selected" href="#/">All</a>
+        </li>
+        <li>
+          <a href="#/active">Active</a>
+        </li>
+        <li>
+          <a href="#/completed">Completed</a>
+        </li>
+      </ul>
+    </footer>
+  </section>
+
+  <footer id="info">
+    <p>Double-click to edit a todo</p>
+    <p>Written by <a href="https://github.com/lukelex">Lukas Alexandre</a></p>
+  </footer>
+
+  <script src="./js/mootools-core.js"></script>
+  <script src="./bower_components/stik.js/stik.js"></script>
+  <script src="js/todo.js"></script>
+  <script src="js/todos_ctrl.js"></script>
+
+</body>
+</html>
