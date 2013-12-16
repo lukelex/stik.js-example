@@ -1,7 +1,7 @@
 {
   "name": "stik.js",
   "main": "stik.js",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "homepage": "https://github.com/lukelex/stik.js",
   "authors": [
     "Lukas Alexandre <lukas@codelogic.me>"
@@ -23,13 +23,14 @@
     "examples",
     "Gruntfile.js"
   ],
-  "_release": "0.4.1",
+  "_release": "0.4.2",
   "_resolution": {
     "type": "version",
-    "tag": "v0.4.1",
-    "commit": "1fff2a99633e789ed3616bc0ac6b70cde0aa9796"
+    "tag": "v0.4.2",
+    "commit": "7942594b8b5d317af79a694dea2552035d8edf10"
   },
   "_source": "git://github.com/lukelex/stik.js.git",
-  "_target": "~0.4.0",
-  "_originalSource": "stik.js"
+  "_target": "~0.4.2",
+  "_originalSource": "stik.js",
+  "_direct": true
 }
